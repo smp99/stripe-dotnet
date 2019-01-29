@@ -26,7 +26,7 @@ namespace StripeTests
 
             this.createOptions = new BankAccountCreateOptions
             {
-                SourceBankAccount = new SourceBankAccount
+                Source = new SourceBankAccount
                 {
                     AccountNumber = "000123456789",
                     Country = "US",
