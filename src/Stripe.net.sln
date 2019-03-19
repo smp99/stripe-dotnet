@@ -19,8 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{B6B9F592
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stripe.net", "Stripe.net\Stripe.net.csproj", "{FA3F03CD-6128-4B34-89CA-F5D5DE0991AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StripeTests", "StripeTests\StripeTests.csproj", "{75F3AA23-C708-4408-AFD0-D7FA354E031B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,5 +47,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B6B9F592-4B61-45D0-A9B2-8D1C03C8E81F} = {E3F91159-E7A8-4F44-9DD9-B7D76E2E7542}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {324DCEE3-038A-4F7E-90BB-66CE6A4B2D50}
 	EndGlobalSection
 EndGlobal

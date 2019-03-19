@@ -158,5 +158,8 @@ namespace Stripe
 
         [JsonProperty("three_d_secure")]
         public SourceThreeDSecure ThreeDSecure { get; set; }
+
+        [JsonProperty("three_d_secure_2_eap")]
+        public SourceThreeDSecure ThreeDSecure2EAP { get; set; }
     }
 }
